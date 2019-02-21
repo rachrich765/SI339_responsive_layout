@@ -189,11 +189,7 @@ header nav a.current {
 .row {
   display: flex;
 }
-@media screen and (max-width: 992px) {
-  .column{
-  width: 50%;
-}
-}
+
   .column{
     flex: 33.33%;
     padding: 5px;
