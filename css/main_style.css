@@ -1,0 +1,239 @@
+body {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 48px;
+  font-size: 30px;
+
+}
+
+.description {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.quick-start {
+  margin-bottom: 40px;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #369F64;
+  font-size: 55px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+h2 {
+  color: #369F64;
+  font-size: 45px;
+
+}
+h3 {
+  color: #369F64;
+  font-size: 38px; 
+  margin-top: 35px;
+}
+
+nav a {
+  color: #DC143C;
+}
+
+nav{
+  margin-bottom: 30px;
+}
+
+img {
+  width:  auto;
+  height: auto;
+}
+
+li {
+  width: 200px;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+p{
+  line-height: 36px;
+}
+
+/*skip to content*/
+
+.skip-main {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    a.skip-main:focus {
+      left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+        z-index: 1;
+        color: #FFFFFF;
+        background-color: #F60909;
+        font-size: 18px;
+    }
+
+ /*footer*/
+footer nav div{
+  font-weight: bold;
+}
+
+footer a .fa-spotify {
+  font-size:55px;
+  color: #1DB954
+}
+
+ .fa-pizza-slice {
+  color:#E31824;
+ }
+
+footer a .fa-instagram  {
+  font-size: 55px;
+  color: #E4405F;
+ }
+
+ footer a .fa-twitter-square  {
+  font-size: 55px;
+  color: #55ACEE;
+ }
+
+ /*background image main page*/
+.my-background {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+    background-image: url("images/trying.jpg");
+    background-attachment: fixed;
+}
+.my-background h1 {
+    padding: 200px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #FFFAFA;
+    line-height: 65px;
+} 
+.my-background img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    opacity: 0.6;
+}
+
+ /*header*/
+header nav li {
+  width: 550px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #910C0C;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+header nav li a{
+  width: 550px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #910C0C;
+  border-radius: 500px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+header nav a.current {
+  width: 550px;
+  text-align: center;
+  border-radius: 500px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #D81C99;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+
+}
+ /*flex layout east coast*/
+
+.row {
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+  .column{
+  width: 50%;
+}
+}
+  .column{
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.column img{
+ width: 650px;
+ height: 650px;
+}
+
+  
+ /*flex layout contributors*/
+ /* Horizontal flex: rows
+   =====================
+*/
+
+.row-c {
+  display: flex;
+}
+
+.item-c {
+  flex: 1 1 1%;
+}
+.item-c p{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.item-c img{
+  width: 280px;
+  height:380px;
+}
+
+
+/* Vertical flex: items
+   ===================
+*/
+
+.item-c {
+  display: flex;
+  flex-direction: column;
+}
