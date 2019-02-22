@@ -115,10 +115,11 @@ footer a .fa-instagram  {
  }
 
  /*background image main page*/
-.my-container {
+.my-background {
     position: relative;
     background: #5C97FF;
     overflow: hidden;
+    background-image: url("images/trying.jpg")
 }
 .my-container h1 {
     padding: 200px;
