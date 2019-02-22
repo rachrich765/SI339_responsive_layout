@@ -188,6 +188,8 @@ header nav a.current {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .wrapper > * {
   padding: 1px;
