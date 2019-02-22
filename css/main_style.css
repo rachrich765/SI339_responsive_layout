@@ -115,14 +115,12 @@ footer a .fa-instagram  {
  }
 
  /*background image main page*/
-.my-background {
+.my-container {
     position: relative;
     background: #5C97FF;
     overflow: hidden;
-    background-image: url("images/trying.jpg");
-    background-attachment: fixed;
 }
-.my-background h1 {
+.my-container h1 {
     padding: 200px;
     text-align: center;
     z-index: 2;
@@ -130,7 +128,7 @@ footer a .fa-instagram  {
     color: #FFFAFA;
     line-height: 65px;
 } 
-.my-background img {
+.my-container img {
     position: absolute;
     left: 0;
     top: 0;
@@ -184,9 +182,6 @@ header nav a.current {
   display: inline-block;
 
 }
- /*flex layout east coast*/
-
-
  /*flex layout east coast*/
 
 .wrapper {
@@ -255,7 +250,7 @@ header nav a.current {
       object-position: 50% 50%;
 }
 
-  
+
  /*flex layout contributors*/
  /* Horizontal flex: rows
    =====================
