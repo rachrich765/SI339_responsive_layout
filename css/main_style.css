@@ -212,12 +212,16 @@ header nav a.current {
    flex: .5px;
     padding: 0.5px;
       text-align: center;
+      margin-right: 75px;
+      margin-left: 75px;
   } 
     .block-content-d-mw  {
    flex: .5px;
     padding: 0.5px;
       text-align: left;
        margin-top: -55px;
+            margin-right: 75px;
+      margin-left: 75px;
 
   } 
 
@@ -226,6 +230,8 @@ header nav a.current {
     padding: 0.5px;
       text-align: left;
       margin-top: -55px;
+           margin-right: 75px;
+      margin-left: 75px;
   } 
   .image-wrapper {
     flex: 3;
