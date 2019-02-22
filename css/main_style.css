@@ -128,6 +128,7 @@ footer a .fa-instagram  {
     position: relative;
     color: #FFFAFA;
     line-height: 65px;
+    background-image: url("images/trying.jpg")
 } 
 .my-background img {
     position: absolute;
@@ -189,8 +190,7 @@ header nav a.current {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  
 }
 .wrapper > * {
   padding: 1px;
@@ -202,6 +202,8 @@ header nav a.current {
   max-width: 100%;
   margin: 0px;
     flex-direction: row;
+    margin-left: 75px;
+  margin-right: 75px;
   }
 
   .block  {
@@ -231,7 +233,7 @@ header nav a.current {
     padding: 0.5px;
       text-align: left;
       margin-top: -55px;
-           margin-right: 75px;
+      margin-right: 75px;
       margin-left: 75px;
   } 
   .image-wrapper {
