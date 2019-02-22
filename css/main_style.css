@@ -193,6 +193,7 @@ header nav a.current {
   .column{
     flex: 33.33%;
     padding: 5px;
+    margin-right: 40px;
   }
 
 .column img{
