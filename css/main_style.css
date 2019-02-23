@@ -15,7 +15,7 @@ body {
   margin-top: 40px;
   margin-right: 20px;
   margin-left: 20px;
-  font-size: 35px;
+  font-size: 45px;
   line-height: 45px;
 }
 
@@ -263,7 +263,8 @@ header nav a.current {
 .column-al p{
    margin-left: 55px;
   margin-right: 55px;
-  font-size: 35px;
+  font-size: 25px;
+  line-height: 35px;
 
 }
 @media screen and (min-width:1020px) {
@@ -295,7 +296,8 @@ header nav a.current {
 .column-h p{
   margin-left: 55px;
   margin-right: 55px;
-  font-size: 35px;
+  font-size: 25px;
+  line-height: 35px;
 }
 @media screen and (min-width:1020px) {
   .column-h p{
