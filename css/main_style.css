@@ -319,11 +319,10 @@ flex-basis: 3%;
   flex: 1 1 1%;
 }
 .item-c p{
-  margin-right: 45px;
-  margin-left: 45px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 45px;
   line-height: 45px;
-  font-size:40px;
-  text-align:   left;
 }
 
 
@@ -337,22 +336,9 @@ flex-basis: 3%;
    ===================
 */
 
-.row-c {
-  display: flex;
-}
-
 .item-c {
-  flex: 1 1 1%;
-}
-.item-c p{
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-
-.item-c img{
-  width: 280px;
-  height:380px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
