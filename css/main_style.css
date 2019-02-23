@@ -224,7 +224,7 @@ header nav a.current {
 }
 
 .column-al {
-  flex: 0.3333;
+  flex: 0.33;
   border: 0.5px solid gray;
   margin: 2px;
   padding: 10px; 
@@ -258,9 +258,11 @@ header nav a.current {
   margin-top: 45px;
 }
 
-@media (max-width: 768px) { /*breakpoint*/
+@media (max-width: 768px) {
   .columns {
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
   }
 }
 
