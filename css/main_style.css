@@ -13,12 +13,21 @@ body {
 .description {
   margin-bottom: 40px;
   margin-top: 40px;
-  font-size: 55px;
-  margin-right: 440px;
-  margin-left: 440px;
-  line-height: 65px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 35px;
+  line-height: 45px;
 }
 
+@media screen and (min-width:1020px) {.description {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-size: 65px;
+  line-height: 65px;
+}
+}
 
 
 div {
@@ -40,6 +49,7 @@ div {
   color: #369F64;
   margin-top: 72px;
   font-size:90px;
+  margin-bottom: 72px;
 }
 
 
@@ -49,7 +59,6 @@ div {
   margin-top: 72px;
   margin-bottom: 20px;
   
-}
 }
 
 nav a {
@@ -152,15 +161,23 @@ footer a .fa-instagram  {
 
 .homepage-p{
   line-height: 70px;
-   margin-right: 300px;
-  margin-left: 300px;
   margin-top:   40px;
   margin-bottom:   70px;
-  font-size:  75px;
+  font-size:  35px;
+  margin-left: 30px;
+   margin-right: 30px;
+}
+@media screen and (min-width:1020px){.homepage-p {
+  line-height: 95px;
+  margin-top:   40px;
+  margin-bottom:   70px;
+  font-size:  85px;
+  margin-left: 450px;
+   margin-right: 450px;
+}
 }
 .homepage-h2{
-   margin-right: 300px;
-  margin-left: 300px;
+
   margin-top:   40px;
   margin-bottom:   40px;
   font-size:  125px;
@@ -219,30 +236,44 @@ header nav a.current {
     flex-direction: column;
     flex: 1;
     justify-content: center;
-     margin: 0;
-  border: 1px solid;
+     margin-bottom: 50px;
+
   }
 @media screen and (min-width:1020px) {
-  .columns {
+  .columns{
     display: flex;
     flex-flow: row wrap;
     margin: 1px 0;
-    border: 1px solid;
     justify-content: center;
   }
 }
 
 .column-al {
   flex: 0.33;
-  border: 0.5px solid gray;
    flex-flow: row wrap;
-   
 }
-.colum-al p{
+@media screen and (min-width:1020px) {
+  .column-al {
+  flex: 0.33;
+   flex-flow: row wrap;
+   border: 0.1px solid gray;
+ }
+}
+
+.column-al p{
    margin-left: 55px;
   margin-right: 55px;
+  font-size: 35px;
 
 }
+@media screen and (min-width:1020px) {
+  .column-al p{
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 55px;
+  }
+}
+
 .column-al img{
  width: 800px;
  height: 800px;
@@ -250,15 +281,30 @@ header nav a.current {
 }
 .column-h {
   flex: 0.5;
-  border: 0.5px solid gray;
    flex-flow: row wrap;
- 
 }
+
+@media screen and (min-width:1020px) {
+  .column-h {
+  flex: 0.5;
+   flex-flow: row wrap;
+   border: 0.1px solid gray;
+ }
+}
+
 .column-h p{
-  margin-left: 35px;
-  margin-right: 35px;
- 
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 35px;
 }
+@media screen and (min-width:1020px) {
+  .column-h p{
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 55px;
+  }
+}
+
 .column-h img{
  width: 900px;
  height: 900px;
@@ -266,95 +312,6 @@ header nav a.current {
 }
 
 
-
-
-@media screen and (min-width:1020px) {.wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  text-align: center;
-}
-}
-@media screen and (min-width:1020px) {.wrapper > * {
- flex: 100%;
-}
-}
-
-@media screen and (min-width:1020px) {.wrapper {
-  flex-direction: column;
-  max-width: 100%;
-    flex-direction: row;
-    flex-basis: 5%;
-  }
-}
- @media screen and (min-width:1020px){ .block  {
-flex-basis: 3%;
-    font-size: 35px;
-      }
-  }  
-
- @media screen and (min-width:1020px){ .block-content-p  {
-   flex: .05px;
-   flex-basis: 1%;
-    padding: 0.05px;
-      text-align: center;
-      font-size: 45px;
-      line-height: 75px;
-       margin-right: 55px;
-  margin-left: 55px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-    }
-     
-  } 
-  @media screen and (min-width:1020px){  .block-content-d-mw  {
-    margin-right: 55px;
-  margin-left: 55px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-   flex: .05px;
-    padding: 0.05px;
-      text-align: left;
-       margin-top: -55px;
-            }
-
-  } 
-
- @media screen and (min-width:1020px) { .block-content-d-ec  {
-   flex: .05px;
-    padding: 0.05px;
-      text-align: left;
-      margin-top: -55px;
-      margin-right: 40px;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  } 
-}
-
-@media screen and (min-width:1020px) {.image-wrapper img {
-  width:720px;
-  height: 920px;
-      box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
-      object-position: 50% 50%;
-
-}
-}
-@media screen and (min-width:1020px) {.image-wrapper-2 img {
-  width:650px;
-  height: 650px;
-      box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
-      object-position: 50% 50%;
-       margin-bottom: -80px;
-}
-}
-@media screen and (min-width:1020px) {.image-wrapper-3 img {
-  width:600px;
-  height: 500px;
-      box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
-      object-position: 50% 50%;
-       margin-bottom: -80px;
-}
-}
 
 
 
@@ -374,7 +331,7 @@ flex-basis: 3%;
 .item-c p{
   margin-right: 15px;
   margin-left: 15px;
-  font-size: 45px;
+  font-size: 55px;
   line-height: 45px;
   text-align: center;
 }
