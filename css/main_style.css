@@ -215,13 +215,21 @@ header nav a.current {
 }
  /*flex layout east coast*/
 
-
-.columns {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 1px 0;
+  .columns {
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+     margin: 0;
   border: 1px solid;
-  justify-content: center;
+  }
+@media screen and (min-width:1020px) {
+  .columns {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1px 0;
+    border: 1px solid;
+    justify-content: center;
+  }
 }
 
 .column-al {
@@ -257,15 +265,7 @@ header nav a.current {
   margin-top: 45px;
 }
 
-@media (max-width: 768px) {
-  .columns {
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-     margin: 0;
-  border: 1px solid;
-  }
-}
+
 
 
 @media screen and (min-width:1020px) {.wrapper {
