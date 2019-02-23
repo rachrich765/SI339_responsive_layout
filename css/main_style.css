@@ -33,7 +33,7 @@ div {
   margin-top: 55px;
   text-align: center;
 }
-}
+
 
 
   h2 {
@@ -214,51 +214,56 @@ header nav a.current {
 
 }
  /*flex layout east coast*/
-* { box-sizing: border-box; }
-.wrapper-1 {
-  padding: 5px;
-  max-width: 960px;
-  width: 95%;
-  margin: 20px auto;
-}
 
 
 .columns {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  margin: 5px 0;
+  margin: 1px 0;
+  border: 1px solid;
 }
 
-.column {
-  flex: 1;
-  border: 1px solid gray;
+.column-al {
+  flex: 0.3333;
+  border: 0.5px solid gray;
   margin: 2px;
   padding: 10px; 
-    &:first-child { margin-left: 0; }
-  &:last-child { margin-right: 0; }
+   flex-flow: row wrap;
+   
+}
+.colum-al p{
+   margin-left: 55px;
+  margin-right: 55px;
+
+}
+.column-al img{
+ width: 800px;
+ height: 800px;
+ margin-top: 45px;
+}
+.column-h {
+  flex: 0.5;
+  border: 0.5px solid gray;
+   flex-flow: row wrap;
+ 
+}
+.column-h p{
+  margin-left: 35px;
+  margin-right: 35px;
+ 
+}
+.column-h img{
+ width: 900px;
+ height: 900px;
+  margin-top: 45px;
 }
 
-@media screen and (max-width: 980px) {
-  .columns .column {
-    margin-bottom: 5px;
-    flex-basis: 40%;
-    &:nth-last-child(2) {
-      margin-right: 0;
-    }
-    &:last-child {
-      flex-basis: 100%;
-      margin: 0;
-    }
+@media (max-width: 768px) { /*breakpoint*/
+  .columns {
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 680px) {
-  .columns .column {
-    flex-basis: 100%;
-    margin: 0 0 5px 0;
-  }
-}
 
 @media screen and (min-width:1020px) {.wrapper {
   display: flex;
