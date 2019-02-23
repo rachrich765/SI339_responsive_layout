@@ -215,41 +215,49 @@ header nav a.current {
 }
  /*flex layout east coast*/
 
-@media (min-width:1025px) {.wrapper {
+@media (min-width:1020px) {.wrapper {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
 }
 }
-@media (min-width:1025px) {.wrapper > * {
+@media (min-width:1020px) {.wrapper > * {
  flex: 100%;
 }
 }
 
-@media (min-width:1025px) {.wrapper {
+@media (min-width:1020px) {.wrapper {
   flex-direction: column;
   max-width: 100%;
     flex-direction: row;
     flex-basis: 5%;
   }
 }
- @media (min-width:1025px){ .block  {
+ @media (min-width:1020px){ .block  {
 flex-basis: 3%;
     font-size: 35px;
       }
   }  
 
- @media (min-width:1025px){ .block-content-p  {
+ @media (min-width:1020px){ .block-content-p  {
    flex: .05px;
    flex-basis: 1%;
     padding: 0.05px;
       text-align: center;
       font-size: 45px;
       line-height: 75px;
+       margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
     }
      
   } 
-  @media (min-width:1025px){  .block-content-d-mw  {
+  @media (min-width:1020px){  .block-content-d-mw  {
+    margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
    flex: .05px;
     padding: 0.05px;
       text-align: left;
@@ -258,29 +266,33 @@ flex-basis: 3%;
 
   } 
 
- @media (min-width:1025px) { .block-content-d-ec  {
+ @media (min-width:1020px) { .block-content-d-ec  {
    flex: .05px;
     padding: 0.05px;
       text-align: left;
       margin-top: -55px;
+      margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   } 
 }
 
-@media (min-width:1025px) {.image-wrapper img {
+@media (min-width:1020px) {.image-wrapper img {
   width:720px;
   height: 920px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
       object-position: 50% 50%;
 }
 }
-@media (min-width:1025px) {.image-wrapper-2 img {
+@media (min-width:1020px) {.image-wrapper-2 img {
   width:650px;
   height: 650px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
       object-position: 50% 50%;
 }
 }
-@media (min-width:1025px) {.image-wrapper-3 img {
+@media (min-width:1020px) {.image-wrapper-3 img {
   width:600px;
   height: 500px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
