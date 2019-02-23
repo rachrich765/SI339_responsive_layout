@@ -15,7 +15,7 @@ body {
   margin-top: 40px;
   margin-right: 40px;
   margin-left: 40px;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 45px;
 }
 
@@ -283,6 +283,8 @@ header nav a.current {
     margin-left: 55px;
     margin-right: 55px;
     font-size: 55px;
+        font-size: 55px;
+    line-height: 65px;
   }
 }
 
@@ -315,6 +317,7 @@ header nav a.current {
     margin-left: 55px;
     margin-right: 55px;
     font-size: 55px;
+    line-height: 65px;
   }
 }
 
