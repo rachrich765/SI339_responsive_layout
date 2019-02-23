@@ -13,9 +13,9 @@ body {
 .description {
   margin-bottom: 40px;
   margin-top: 40px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 45px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-size: 25px;
   line-height: 45px;
 }
 
@@ -34,33 +34,44 @@ div {
   margin-bottom: 40px;
   line-height: 85px;
 }
-
- h1 {
+h1 {
+  color: #369F64;
+  font-size: 45px;
+  margin-bottom: 25px;
+  margin-top: 55px;
+  text-align: center;
+}
+ @media screen and (min-width:1020px) {h1 {
   color: #369F64;
   font-size: 125px;
   margin-bottom: 45px;
   margin-top: 55px;
   text-align: center;
 }
-
-
-
-  h2 {
+}
+ h2 {
+  color: #369F64;
+  margin-top: -14px;
+  font-size:35px;
+  margin-bottom: 17px;
+}
+ @media screen and (min-width:1020px) { h2 {
   color: #369F64;
   margin-top: 72px;
   font-size:90px;
   margin-bottom: 72px;
 }
-
-
-  h3 {
+}
+h3 {
+  margin-top: 24px;
   color: #369F64;
-  font-size: 70px; 
-  margin-top: 72px;
-  margin-bottom: 20px;
-  
+  font-size: 32px; 
+  margin-bottom: -14px;
 }
 
+.ratings{
+  font-size: 25px; 
+}
 nav a {
   color: #DC143C;
 }
@@ -276,8 +287,8 @@ header nav a.current {
 }
 
 .column-al img{
- width: 800px;
- height: 800px;
+ width: 750px;
+ height: 750px;
  margin-top: 45px;
 }
 .column-h {
@@ -308,8 +319,8 @@ header nav a.current {
 }
 
 .column-h img{
- width: 900px;
- height: 900px;
+ width: 750px;
+ height: 750px;
   margin-top: 45px;
 }
 
@@ -333,9 +344,9 @@ header nav a.current {
 .item-c p{
   margin-right: 15px;
   margin-left: 15px;
-  font-size: 55px;
-  line-height: 45px;
-  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: left;
 }
 
 
