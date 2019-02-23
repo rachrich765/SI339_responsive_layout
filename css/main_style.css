@@ -225,7 +225,7 @@ header nav a.current {
 }
 
 .column-al {
-  flex: 0.01;
+  flex: 0.33;
   border: 0.5px solid gray;
    flex-flow: row wrap;
    
