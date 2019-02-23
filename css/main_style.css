@@ -267,22 +267,22 @@ flex-basis: 3%;
 }
 
 @media (min-width:1025px) {.image-wrapper img {
-  width:520px;
-  height: 720px;
+  width:720px;
+  height: 920px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
       object-position: 50% 50%;
 }
 }
 @media (min-width:1025px) {.image-wrapper-2 img {
-  width:550px;
-  height: 550px;
+  width:650px;
+  height: 650px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
       object-position: 50% 50%;
 }
 }
 @media (min-width:1025px) {.image-wrapper-3 img {
-  width:500px;
-  height: 400px;
+  width:600px;
+  height: 500px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
       object-position: 50% 50%;
 }
