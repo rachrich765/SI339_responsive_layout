@@ -337,9 +337,22 @@ flex-basis: 3%;
    ===================
 */
 
-.item-c {
+.row-c {
   display: flex;
-  flex-direction: column;
+}
+
+.item-c {
+  flex: 1 1 1%;
+}
+.item-c p{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.item-c img{
+  width: 280px;
+  height:380px;
 }
 
 .container {
