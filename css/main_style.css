@@ -62,15 +62,21 @@ h1 {
   margin-bottom: 72px;
 }
 }
+
 h3 {
   margin-top: 24px;
   color: #369F64;
   font-size: 32px; 
-  margin-bottom: -14px;
+  margin-top: 35px;
+  line-height: 40px;
+  margin-bottom: 18px;
 }
 
 .ratings{
   font-size: 25px; 
+  margin-bottom: -20px;
+  line-height: 38px;
+  margin-bottom: 38px;
 }
 nav a {
   color: #DC143C;
