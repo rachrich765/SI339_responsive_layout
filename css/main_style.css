@@ -26,7 +26,7 @@ div {
   line-height: 85px;
 }
 
-@media (min-width:1025px) {h1 {
+ h1 {
   color: #369F64;
   font-size: 125px;
   margin-bottom: 45px;
@@ -35,15 +35,14 @@ div {
 }
 }
 
-@media (min-width:1025px) {
+
   h2 {
   color: #369F64;
   margin-top: 72px;
   font-size:90px;
 }
 
-}
-@media (min-width:1025px) {
+
   h3 {
   color: #369F64;
   font-size: 70px; 
@@ -215,31 +214,31 @@ header nav a.current {
 }
  /*flex layout east coast*/
 
-@media (min-width:1020px) {.wrapper {
+@media screen and (min-width:1020px) {.wrapper {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
 }
 }
-@media (min-width:1020px) {.wrapper > * {
+@media screen and (min-width:1020px) {.wrapper > * {
  flex: 100%;
 }
 }
 
-@media (min-width:1020px) {.wrapper {
+@media screen and (min-width:1020px) {.wrapper {
   flex-direction: column;
   max-width: 100%;
     flex-direction: row;
     flex-basis: 5%;
   }
 }
- @media (min-width:1020px){ .block  {
+ @media screen and (min-width:1020px){ .block  {
 flex-basis: 3%;
     font-size: 35px;
       }
   }  
 
- @media (min-width:1020px){ .block-content-p  {
+ @media screen and (min-width:1020px){ .block-content-p  {
    flex: .05px;
    flex-basis: 1%;
     padding: 0.05px;
@@ -253,7 +252,7 @@ flex-basis: 3%;
     }
      
   } 
-  @media (min-width:1020px){  .block-content-d-mw  {
+  @media screen and (min-width:1020px){  .block-content-d-mw  {
     margin-right: 55px;
   margin-left: 55px;
   margin-top: 40px;
@@ -266,7 +265,7 @@ flex-basis: 3%;
 
   } 
 
- @media (min-width:1020px) { .block-content-d-ec  {
+ @media screen and (min-width:1020px) { .block-content-d-ec  {
    flex: .05px;
     padding: 0.05px;
       text-align: left;
@@ -278,7 +277,7 @@ flex-basis: 3%;
   } 
 }
 
-@media (min-width:1020px) {.image-wrapper img {
+@media screen and (min-width:1020px) {.image-wrapper img {
   width:720px;
   height: 920px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
@@ -286,7 +285,7 @@ flex-basis: 3%;
 
 }
 }
-@media (min-width:1020px) {.image-wrapper-2 img {
+@media screen and (min-width:1020px) {.image-wrapper-2 img {
   width:650px;
   height: 650px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
@@ -294,7 +293,7 @@ flex-basis: 3%;
        margin-bottom: -80px;
 }
 }
-@media (min-width:1020px) {.image-wrapper-3 img {
+@media screen and (min-width:1020px) {.image-wrapper-3 img {
   width:600px;
   height: 500px;
       box-shadow: 0 20px 15px -15px rgba(50,50,50,0.33);
