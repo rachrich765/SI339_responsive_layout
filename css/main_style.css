@@ -19,7 +19,7 @@ body {
   line-height: 45px;
 }
 
-/*desktop*/
+/*laptop*/
 @media screen and (min-width:1200px) {
   .description {
     margin-bottom: 40px;
@@ -141,8 +141,6 @@ nav{
   margin-bottom: 30px;
 }
 
-
-
 li {
   width: 200px;
   display: inline-flex;
@@ -223,7 +221,7 @@ li {
 
  /*footer*/
 
-/*mobile*/
+/*mobile / default*/
 footer nav div{
   font-weight: bold;
 }
@@ -236,6 +234,7 @@ footer nav div{
   margin-bottom: 41px;
 }
 
+/*laptop*/
 @media screen and (min-width:1200px) { 
   .ratings{
     font-size: 65px; 
@@ -264,7 +263,7 @@ footer nav div{
   color:#E31824;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) { 
   .ratings .fa-pizza-slice  {
     font-size: 65px;
@@ -312,6 +311,7 @@ footer a .fa-instagram  {
   color: #E4405F;
 }
 
+/*laptop*/
 @media screen and (min-width:1200px) { 
   footer a .fa-instagram   {
     font-size: 135px;
@@ -335,7 +335,7 @@ footer a .fa-twitter-square  {
   color: #55ACEE;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) { 
   footer a .fa-twitter-square  {
     font-size: 135px;
@@ -384,6 +384,7 @@ footer a .fa-twitter-square  {
   margin-bottom: -30px;
 } 
 
+/*laptop*/
 @media screen and (min-width:1200px) {
   .my-container-1 h1 {
     color: #F21C39;
@@ -406,6 +407,7 @@ footer a .fa-twitter-square  {
 
     }
 }
+
 /*mobile*/
 .my-container-1 img {
     position: absolute;
@@ -416,6 +418,7 @@ footer a .fa-twitter-square  {
     opacity: 0.6;
 }
 
+/*laptop*/
 @media screen and (min-width:1200px) {
   .my-container-1 img  {
     display:none;
@@ -431,7 +434,7 @@ footer a .fa-twitter-square  {
     }
 }
 
-/*mobile*/
+/*mobile / default*/
 .homepage-p{
   line-height: 70px;
   margin-top:   40px;
@@ -441,6 +444,7 @@ footer a .fa-twitter-square  {
    margin-right: 30px;
 }
 
+/*laptop*/
 @media screen and (min-width:1200px){
   .homepage-p {
     line-height: 95px;
@@ -583,7 +587,7 @@ header nav a.current {
 
  /*flex layout east coast*/
 
-/*mobile*/
+/*mobile / default*/
 .columns {
   flex-direction: column;
   flex: 1;
@@ -591,7 +595,7 @@ header nav a.current {
   margin-bottom: 50px;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) {
   .columns{
     display: flex;
@@ -613,13 +617,13 @@ header nav a.current {
 }
 
 
-/*mobile*/
+/*mobile / default*/
 .column-al {
   flex: 0.33;
   flex-flow: row wrap;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) {
   .column-al {
     flex: 0.33;
@@ -638,7 +642,7 @@ header nav a.current {
   }
 }
 
-/*mobile*/
+/*mobile / default*/
 .column-al p{
    margin-left: 55px;
   margin-right: 55px;
@@ -646,6 +650,7 @@ header nav a.current {
   line-height: 35px;
 }
 
+/*laptop*/
 @media screen and (min-width:1200px) {
   .column-al p{
     margin-left: 75px;
@@ -690,13 +695,13 @@ header nav a.current {
 }
 
 
-/*mobile*/
+/*mobile / default*/
 .column-h {
   flex: 0.5;
    flex-flow: row wrap;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) {
   .column-h {
     flex: 0.5;
@@ -723,7 +728,7 @@ header nav a.current {
   line-height: 35px;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px) {
   .column-h p{
     margin-left: 85px;
@@ -749,7 +754,7 @@ header nav a.current {
     }
 }
 
-/*mobile*/
+/*mobile / default*/
 .column-h img{
  width: 750px;
  height: 750px;
@@ -770,63 +775,50 @@ header nav a.current {
 
  /*flex layout contributors*/
 
-/*mobile*/
-.row-c {
-   flex-flow: row wrap;
-    margin: 1px 0;
-}
-
-/*ipad*/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .row-c {
-      flex-flow: row wrap;
-      margin: 1px 0;
+/*laptop*/
+@media screen and (min-width:1200px){
+  .row-c {
+    display: flex;
   }
 }
 
-/*mobile*/
-.item-c {
-  flex: 1 1 1%;
-}
-
-
+/*laptop*/
 @media screen and (min-width:1200px){
   .item-c {
     flex: 1 1 1%;
   }
 }
 
-/*ipad*/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .item-c {
-      flex: 1 1 1%;
+/*laptop*/
+@media screen and (min-width:1200px){
+  .item-c p{
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
 
-/*mobile*/
-.item-c p{
-  margin-right: 15px;
-  margin-left: 15px;
-  font-size: 25px;
-  line-height: 35px;
-  text-align: center;
+/*ipad*/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)and (orientation: portrait) {
+    .item-c p{
+      margin-right: 15px;
+      margin-left: 15px;
+      font-size: 32px;
+      margin-bottom: 12px;
+  }
 }
 
 /*ipad*/
 @media screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .item-c p{
-      font-size: 40px;
-      line-height: 55px;
-      margin-bottom: 40px;
-      }
+  and (max-device-width: 1024px)and (orientation: portrait) {
+    .item-c-heading{
+      margin-top: 3px;
+      margin-bottom:10px;
+  }
 }
-
+/*laptop*/
 @media screen and (min-width:1200px){
   .item-c img{
     width: 280px;
@@ -837,58 +829,33 @@ header nav a.current {
 /*ipad*/
 @media screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
+  and (max-device-width: 1024px) and (orientation: portrait) {
     .item-c img{
-    width: 380px;
-    height:480px;
-  }
-}
-
-
-/*mobile*/
-.item-c-al img{
-  width: 280px;
-  height:580px;
-}
-
-@media screen and (min-width:1200px){
-  .item-c-al img{
-  width: 280px;
-  height:380px;
-  }
-}
-
-/*ipad*/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .item-c-al img{
-      width: 300px;
+      width: 380px;
       height:580px;
-    }
+      margin-bottom: -12px;
+  }
 }
 
-/* Vertical flex: items
-   ===================*/
- 
- /*mobile*/
- .item-c {
-  display: flex;
-  flex-direction: column;
-}
+/*laptop*/
+@media screen and (min-width:1200px){
+  .item-c {
+    display: flex;
+    flex-direction: column;
+  }
 
 /* Homepage gallery
    ===================
 */
 
-/*mobile*/
+/*mobile / default*/
 .container {
   max-width: 100rem;
   margin: 0 auto;
   padding: 0 2rem 2rem;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1200px){
   .container {
     max-width: 100rem;
@@ -915,7 +882,7 @@ header nav a.current {
   margin: -1rem -1rem;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1024px){
   .gallery {
     display: flex;
@@ -974,7 +941,7 @@ header nav a.current {
   transition: transform 400ms ease-out;
 }
 
-
+/*laptop*/
 @media screen and (min-width:1024px){
   .gallery-image {
     display: block;
