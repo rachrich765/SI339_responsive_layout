@@ -10,16 +10,14 @@ body {
 
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.description {
+.description {
   margin-bottom: 40px;
   margin-top: 40px;
   margin-right: 40px;
   margin-left: 40px;
   font-size: 30px;
   line-height: 45px;
-}}
+}
 
 @media screen and (min-width:1020px) {.description {
   margin-bottom: 40px;
@@ -32,22 +30,18 @@ and (max-device-width : 667px) {.description {
 }
 
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {div {
+div {
   margin-bottom: 40px;
   line-height: 85px;
+
 }
-}
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {h1 {
+h1 {
   color: #369F64;
   font-size: 100px;
   margin-bottom: 25px;
   margin-top: 55px;
   text-align: center;
-}
+
 }
  @media screen and (min-width:1020px) {h1 {
   color: #369F64;
@@ -57,14 +51,12 @@ and (max-device-width : 667px) {h1 {
   text-align: center;
 }
 }
- @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {h2 {
+h2 {
   color: #369F64;
   margin-top: 37px;
   font-size:80px;
   margin-bottom: 37px;
-}
+
 }
  @media screen and (min-width:1020px) { h2 {
   color: #369F64;
@@ -74,16 +66,14 @@ and (max-device-width : 667px) {h2 {
 }
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {h3 {
+h3 {
   margin-top: 44px;
   color: #369F64;
   font-size: 50px; 
   margin-top: 40px;
   line-height: 50px;
   margin-bottom: 22px;
-}
+
 }
 @media screen and (min-width:1020px) { 
   h3 { margin-top: 24px;
@@ -93,9 +83,7 @@ and (max-device-width : 667px) {h3 {
   line-height: 80px;
   margin-bottom: 18px;
 }}
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.ratings{
+.ratings{
   font-size: 27px; 
   margin-bottom: -20px;
   line-height: 41px;
@@ -111,17 +99,7 @@ and (max-device-width : 667px) {.ratings{
 }
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.ratings i{
-   color:#E31824;
-}}
-@media screen and (min-width:1020px) { .ratings i{
-  color:#E31824;
-}}
-nav a {
-  color: #DC143C;
-}
+
 
 nav{
   margin-bottom: 30px;
@@ -170,12 +148,10 @@ li {
     }
 
  /*footer*/
- @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {
+
 footer nav div{
   font-weight: bold;
-}
+
 }
 @media screen and (min-width:1020px) { 
   footer nav div{
@@ -183,12 +159,10 @@ footer nav div{
 }
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {footer a .fa-spotify {
+footer a .fa-spotify {
   font-size:105px;
   color: #1DB954;
-}
+
 }
 @media screen and (min-width:1020px) { 
   footer a .fa-spotify {
@@ -197,12 +171,10 @@ and (max-device-width : 667px) {footer a .fa-spotify {
 }
 }
 
- @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {footer a.fa-pizza-slice {
+footer a.fa-pizza-slice {
   font-size: 135px;
   color:#E31824;
- }
+
 }
  @media screen and (min-width:1020px) { 
   footer a .fa-pizza-slice  {
@@ -211,12 +183,10 @@ and (max-device-width : 667px) {footer a.fa-pizza-slice {
 }
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {footer a .fa-instagram  {
+footer a .fa-instagram  {
   font-size: 105px;
   color: #E4405F;
- }
+
 }
  @media screen and (min-width:1020px) { 
   footer a .fa-instagram   {
@@ -226,12 +196,10 @@ and (max-device-width : 667px) {footer a .fa-instagram  {
 }
 
 
- @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {footer a .fa-twitter-square  {
+footer a .fa-twitter-square  {
   font-size: 105px;
   color: #55ACEE;
- }
+
 }
   @media screen and (min-width:1020px) { footer a .fa-twitter-square  {
   font-size: 135px;
@@ -263,9 +231,7 @@ and (max-device-width : 667px) {footer a .fa-twitter-square  {
     opacity: 0.6;
 }
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.my-background img {
+.my-background img {
     position: absolute;
     left: 0;
     top: 0;
@@ -274,16 +240,14 @@ and (max-device-width : 667px) {.my-background img {
     opacity: 0.6;
 }
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.homepage-p{
+.homepage-p{
   line-height: 70px;
   margin-top:   40px;
   margin-bottom:   70px;
   font-size:  35px;
   margin-left: 30px;
    margin-right: 30px;
-}
+
 }
 @media screen and (min-width:1020px){.homepage-p {
   line-height: 95px;
@@ -294,15 +258,13 @@ and (max-device-width : 667px) {.homepage-p{
    margin-right: 450px;
 }
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.homepage-h2{
+.homepage-h2{
 
   margin-top:   40px;
   margin-bottom:   40px;
   font-size:  125px;
   color: #369F64;
-}}
+}
 
  /*header*/
 
@@ -367,13 +329,10 @@ header nav a.current {
     justify-content: center;
   }
 }
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.column-al {
+.column-al {
   flex: 0.33;
    flex-flow: row wrap;
-}
+
 }
 @media screen and (min-width:1020px) {
   .column-al {
@@ -383,9 +342,7 @@ and (max-device-width : 667px) {.column-al {
  }
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.column-al p{
+.column-al p{
    margin-left: 55px;
   margin-right: 55px;
   font-size: 25px;
@@ -406,12 +363,10 @@ and (max-device-width : 667px) {.column-al p{
  height: 750px;
  margin-top: 45px;
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 667px) {.column-h {
+.column-h {
   flex: 0.5;
    flex-flow: row wrap;
-}
+
 }
 @media screen and (min-width:1020px) {
   .column-h {
