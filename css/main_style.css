@@ -11,7 +11,7 @@ body {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.description {
   margin-bottom: 40px;
   margin-top: 40px;
@@ -33,14 +33,14 @@ and (max-device-width : 667px) {.description {
 
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {div {
   margin-bottom: 40px;
   line-height: 85px;
 }
 }
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {h1 {
   color: #369F64;
   font-size: 100px;
@@ -58,7 +58,7 @@ and (max-device-width : 667px) {h1 {
 }
 }
  @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {h2 {
   color: #369F64;
   margin-top: 37px;
@@ -75,7 +75,7 @@ and (max-device-width : 667px) {h2 {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {h3 {
   margin-top: 44px;
   color: #369F64;
@@ -94,7 +94,7 @@ and (max-device-width : 667px) {h3 {
   margin-bottom: 18px;
 }}
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.ratings{
   font-size: 27px; 
   margin-bottom: -20px;
@@ -112,7 +112,7 @@ and (max-device-width : 667px) {.ratings{
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.ratings i{
    color:#E31824;
 }}
@@ -171,7 +171,7 @@ li {
 
  /*footer*/
  @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {
 footer nav div{
   font-weight: bold;
@@ -184,7 +184,7 @@ footer nav div{
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {footer a .fa-spotify {
   font-size:105px;
   color: #1DB954;
@@ -198,7 +198,7 @@ and (max-device-width : 667px) {footer a .fa-spotify {
 }
 
  @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {footer a.fa-pizza-slice {
   font-size: 135px;
   color:#E31824;
@@ -227,7 +227,7 @@ and (max-device-width : 667px) {footer a .fa-instagram  {
 
 
  @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {footer a .fa-twitter-square  {
   font-size: 105px;
   color: #55ACEE;
@@ -264,7 +264,7 @@ and (max-device-width : 667px) {footer a .fa-twitter-square  {
 }
 }
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.my-background img {
     position: absolute;
     left: 0;
@@ -275,7 +275,7 @@ and (max-device-width : 667px) {.my-background img {
 }
 }
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.homepage-p{
   line-height: 70px;
   margin-top:   40px;
@@ -295,7 +295,7 @@ and (max-device-width : 667px) {.homepage-p{
 }
 }
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.homepage-h2{
 
   margin-top:   40px;
@@ -369,7 +369,7 @@ header nav a.current {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.column-al {
   flex: 0.33;
    flex-flow: row wrap;
@@ -384,7 +384,7 @@ and (max-device-width : 667px) {.column-al {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.column-al p{
    margin-left: 55px;
   margin-right: 55px;
@@ -407,7 +407,7 @@ and (max-device-width : 667px) {.column-al p{
  margin-top: 45px;
 }
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {.column-h {
   flex: 0.5;
    flex-flow: row wrap;
