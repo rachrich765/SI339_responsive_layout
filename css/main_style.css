@@ -110,6 +110,15 @@ and (max-device-width : 667px) {.ratings{
   margin-bottom: 38px;
 }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {.ratings i{
+   color:#E31824;
+}}
+@media screen and (min-width:1020px) { .ratings i{
+  color:#E31824;
+}}
 nav a {
   color: #DC143C;
 }
@@ -161,10 +170,18 @@ li {
     }
 
  /*footer*/
+ @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
 footer nav div{
   font-weight: bold;
 }
-
+}
+@media screen and (min-width:1020px) { 
+  footer nav div{
+  font-weight: bold;
+}
+}
 
 @media only screen 
 and (min-device-width : 375px) 
@@ -182,14 +199,15 @@ and (max-device-width : 667px) {footer a .fa-spotify {
 
  @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 667px) {.fa-pizza-slice {
+and (max-device-width : 667px) {footer a.fa-pizza-slice {
+  font-size: 135px;
   color:#E31824;
  }
 }
  @media screen and (min-width:1020px) { 
   footer a .fa-pizza-slice  {
     font-size: 135px;
-  color: #1DB954;
+    color: #E31824;
 }
 }
 
