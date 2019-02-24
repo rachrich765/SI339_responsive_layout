@@ -88,11 +88,11 @@ h3 {
   margin-bottom: -20px;
   line-height: 41px;
   margin-bottom: 41px;
-}}
+}
 
 @media screen and (min-width:1020px) { 
   .ratings{
-  font-size: 55px; 
+  font-size: 65px; 
   margin-bottom: -20px;
   line-height: 38px;
   margin-bottom: 38px;
@@ -171,14 +171,14 @@ footer a .fa-spotify {
 }
 }
 
-footer a.fa-pizza-slice {
-  font-size: 135px;
+.ratings .fa-pizza-slice {
+  font-size: 65px;
   color:#E31824;
 
 }
- @media screen and (min-width:1020px) { 
-  footer a .fa-pizza-slice  {
-    font-size: 135px;
+@media screen and (min-width:1020px) { 
+  .ratings .fa-pizza-slice  {
+    font-size: 65px;
     color: #E31824;
 }
 }
@@ -239,7 +239,7 @@ footer a .fa-twitter-square  {
     height: 200%;
     opacity: 0.6;
 }
-}
+
 .homepage-p{
   line-height: 70px;
   margin-top:   40px;
@@ -348,7 +348,7 @@ header nav a.current {
   font-size: 25px;
   line-height: 35px;
 }
-}
+
 @media screen and (min-width:1020px) {
   .column-al p{
     margin-left: 75px;
