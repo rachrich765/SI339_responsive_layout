@@ -843,6 +843,7 @@ header nav a.current {
     display: flex;
     flex-direction: column;
   }
+}
 
 /* Homepage gallery
    ===================
