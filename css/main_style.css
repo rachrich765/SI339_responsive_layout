@@ -698,6 +698,14 @@ header nav a.current {
     }
 }
 
+@media screen and (min-width:1200px) {
+  .column-al img{
+    width: 900px;
+    height: 900px;
+    margin-top: 45px;
+  }
+}
+
 
 /*mobile / default*/
 .column-h {
@@ -776,6 +784,14 @@ header nav a.current {
     }
 }
 
+
+@media screen and (min-width:1200px) {
+    .column-h img{
+      width: 900px;
+    height: 900px;
+    margin-top: 45px;
+    }
+}
 
  /*flex layout contributors*/
 
