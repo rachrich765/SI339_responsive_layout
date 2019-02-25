@@ -65,7 +65,7 @@ h1 {
     color: #E12626;
     font-size: 125px;
     margin-bottom: 75px;
-    margin-top: 75px;
+    margin-top: 85px;
     text-align: center;
   }
 }
@@ -392,6 +392,7 @@ footer a .fa-twitter-square  {
   .my-container-1 h1 {
     color: #F21C39;
     margin-bottom: 30px;
+    margin-top: 30px;
   } 
 }
 
@@ -400,13 +401,12 @@ footer a .fa-twitter-square  {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) and (orientation: portrait){
     .my-container-1 h1 {
-      padding: 200px;
-    text-align: center;
-    z-index: 2;
-    position: relative;
-    color: #FFFAFA;
-    line-height: 85px;
-    margin-top: -50px;
+     color: #F21C39;
+    margin-bottom: 30px;
+    margin-top: 30px;
+        margin-left: 40px;
+    margin-right: 40px;
+    font-size: 95px;
 
     }
 }
@@ -468,7 +468,7 @@ footer a .fa-twitter-square  {
       line-height: 45px;
       margin-top:   40px;
       margin-bottom:   70px;
-      font-size:  35px;
+      font-size:  45px;
       margin-left: 14px;
       margin-right: 14px;
   }
@@ -838,8 +838,8 @@ header nav a.current {
 /*laptop*/
 @media screen and (min-width:1200px){
   .item-c img{
-    width: 280px;
-    height:380px;
+    width: 380px;
+    height:580px;
   }
 }
 
