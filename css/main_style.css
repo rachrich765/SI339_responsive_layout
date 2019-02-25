@@ -83,12 +83,13 @@ h1 {
   }
 }
 
-/*mobile*/
+/*mobile / default*/
 h2 {
   color: #369F64;
   margin-top: 37px;
   font-size:80px;
   margin-bottom: 37px;
+  line-height: 60px;
 }
 
 /*laptop*/
@@ -121,7 +122,7 @@ h3 {
   color: #369F64;
   font-size: 50px; 
   margin-top: 40px;
-  line-height: 50px;
+  line-height: 70px;
   margin-bottom: 22px;
 }
 
@@ -178,9 +179,9 @@ li {
 
 /*mobile*/
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (orientation: portrait){
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
+  and (orientation: portrait) {
     .skip-main {
       display: none;
     }
@@ -211,7 +212,7 @@ li {
 
 /*mobile*/
 @media only screen 
-  and (min-device-width: 414px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 736px) 
   and (orientation: portrait){
     a.skip-main:focus {
@@ -228,7 +229,7 @@ footer nav div{
 
 /*mobile*/
 .ratings{
-  font-size: 55px; 
+  font-size: 35px; 
   margin-bottom: -20px;
   line-height: 41px;
   margin-bottom: 41px;
@@ -257,10 +258,11 @@ footer nav div{
   }
 }
 
-/*mobile*/
+/*mobile / default*/
 .ratings .fa-pizza-slice {
-  font-size: 55px;
+  font-size: 50px;
   color:#E31824;
+  line-height: 65px;
 }
 
 /*laptop*/
@@ -281,7 +283,7 @@ footer nav div{
   }
 }
 
-/*mobile*/
+/*mobile / default*/
 footer a .fa-spotify {
   font-size:145px;
   color: #1DB954;
@@ -305,7 +307,7 @@ footer a .fa-spotify {
   }
 }
 
-/*mobile*/
+/*mobile / default*/
 footer a .fa-instagram  {
   font-size: 155px;
   color: #E4405F;
@@ -329,7 +331,7 @@ footer a .fa-instagram  {
     }
 }
 
-/*mobile*/
+/*mobile / default*/
 footer a .fa-twitter-square  {
   font-size: 155px;
   color: #55ACEE;
@@ -355,7 +357,7 @@ footer a .fa-twitter-square  {
 
  /*background image main page*/
 
- /*mobile*/
+ /*mobile / default*/
 .my-container-1 {
     position: relative;
     overflow: hidden;
@@ -378,10 +380,11 @@ footer a .fa-twitter-square  {
       overflow: hidden;
   }
 }
-/*mobile*/
+/*mobile / default*/
 .my-container-1 h1 {
-  color: #F21C39;
-  margin-bottom: -30px;
+  color: #D74056;  
+  margin-top: -8px;
+  opacity: 1;
 } 
 
 /*laptop*/
@@ -408,14 +411,14 @@ footer a .fa-twitter-square  {
     }
 }
 
-/*mobile*/
+/*mobile / default*/
 .my-container-1 img {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height:100%;
-    opacity: 0.6;
+    width: 110%;
+    height:110%;
+    opacity: 0.35;
 }
 
 /*laptop*/
@@ -439,9 +442,10 @@ footer a .fa-twitter-square  {
   line-height: 70px;
   margin-top:   40px;
   margin-bottom:   70px;
-  font-size:  35px;
-  margin-left: 30px;
-   margin-right: 30px;
+  font-size:  15px;
+  margin-left: 12px;
+   margin-right: 12px;
+
 }
 
 /*laptop*/
@@ -678,8 +682,8 @@ header nav a.current {
 
 /*mobile*/
 .column-al img{
- width: 750px;
- height: 750px;
+ width: 550px;
+ height: 550px;
  margin-top: 45px;
 }
 
@@ -756,8 +760,8 @@ header nav a.current {
 
 /*mobile / default*/
 .column-h img{
- width: 750px;
- height: 750px;
+ width: 550px;
+ height: 550px;
   margin-top: 45px;
 }
 
@@ -809,6 +813,19 @@ header nav a.current {
   }
 }
 
+/*mobile*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait){
+    .item-c p{
+      margin-right: 13px;
+      margin-left: 13px;
+      font-size: 13px;
+      margin-bottom: 12px;
+  }
+}
+
 /*ipad*/
 @media screen 
   and (min-device-width: 768px) 
@@ -830,6 +847,16 @@ header nav a.current {
 @media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) and (orientation: portrait) {
+    .item-c img{
+      width: 380px;
+      height:580px;
+      margin-bottom: -12px;
+  }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait){
     .item-c img{
       width: 380px;
       height:580px;
